@@ -1,0 +1,50 @@
+body{
+    background: rgba(0, 0, 0, 0.37);
+    color: white;
+}
+header img{
+    width: 100%;
+    height: 350px;
+}
+nav h1{
+    color: white;
+    font-family: 'Birthstone', cursive;
+    font-size: 75px;
+    text-align: center;
+}
+.highlights{
+    width: 95%;
+    position: relative;
+}
+.high-awards{
+    border: 1px solid yellow;
+    padding-left: 25px;
+}
+.high-awards .child1{
+    display: inline-block;
+    width: 25%;
+    margin: auto;
+}
+.high-awards .child2{
+    width: 75%;
+    margin: auto;
+    display: inline-block;
+    float: right;
+}
+.phrase-down p{
+    font-family: 'Birthstone', cursive;
+    font-size: 75px;
+    text-align: center;
+    display: inline-block;
+}
+.kb-logo{
+    width: 100%;  
+}
+section{
+    float: left;
+    width: 65%;
+}
+aside{
+    float: left;
+    width: 30%;
+}
