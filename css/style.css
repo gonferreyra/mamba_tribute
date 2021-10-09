@@ -1,5 +1,5 @@
 body{
-    background: rgba(0, 0, 0, 0.37);
+    background: rgb(0, 0, 0);
     color: white;
 }
 header img{
@@ -15,6 +15,11 @@ nav h1{
 .highlights{
     width: 95%;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 100px;
 }
 .high-awards{
     border: 1px solid yellow;
@@ -24,11 +29,12 @@ nav h1{
     display: inline-block;
     width: 25%;
     margin: auto;
+    color: purple;
 }
 .high-awards .child2{
     width: 75%;
     margin: auto;
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
 }
 .phrase-down p{
@@ -47,4 +53,9 @@ section{
 aside{
     float: left;
     width: 30%;
+}
+.aside2down{
+    width: 99%;
+    border: 1px solid yellow;
+    font-family: 'Ubuntu', sans-serif;
 }
