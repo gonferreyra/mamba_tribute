@@ -4,7 +4,7 @@ body{
 }
 header img{
     width: 100%;
-    height: 350px;
+    height: 456, 25, 340px;
 }
 nav h1{
     color: white;
@@ -22,20 +22,21 @@ h3{
     padding-left: 100px;
 }
 .high-awards{
-    border: 1px solid yellow;
+    border: 1px solid rgb(2, 2, 158);
     padding-left: 25px;
 }
 .high-awards .child1{
     display: inline-block;
     width: 25%;
     margin: auto;
-    color: purple;
+    color: rgb(85, 37, 130);
 }
 .high-awards .child2{
     width: 75%;
     margin: auto;
     /* display: inline-block; */
     float: right;
+    color: rgb(221,221,80);
 }
 .phrase-down p{
     font-family: 'Birthstone', cursive;
@@ -56,6 +57,18 @@ aside{
 }
 .aside2down{
     width: 99%;
-    border: 1px solid yellow;
+    border: 1px solid rgb(2, 2, 158);
+    color: rgb(221, 221, 80);
     font-family: 'Ubuntu', sans-serif;
+}
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.footer a img{
+    width: 150px;
+}
+.footer a p{
+    color: white;
 }
